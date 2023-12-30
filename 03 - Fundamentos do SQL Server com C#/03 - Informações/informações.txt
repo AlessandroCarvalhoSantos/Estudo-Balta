@@ -1,0 +1,34 @@
+Fundamentos do SQL Server com C#
+
+Instituição: BALTA
+Carga horaria: 3 horas
+Data: 30/12/2023
+	- Ferramentas
+	- Create Database
+	- Create Table
+	- Alter/Drop Table
+	- Constraints - Not Null
+	- Constraints - Unique
+	- Primary Key
+	- Composite Key
+	- Índices
+	- Identity
+	- Insert
+	- Select
+	- Queries
+	- Order By
+	- Update
+	- Delete
+	- MIN, MAX, Count
+	- Like
+	- In, Between
+	- Alias
+	- Joins
+	- Left Join
+	- union
+	- Group By
+	- Having
+	- Views
+	- Stored Procedures
+	- Variáveis
+
