@@ -1,0 +1,15 @@
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\11 - Events\bin\Debug\net8.0\11 - Events.exe
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\11 - Events\bin\Debug\net8.0\11 - Events.deps.json
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\11 - Events\bin\Debug\net8.0\11 - Events.runtimeconfig.json
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\11 - Events\bin\Debug\net8.0\11 - Events.dll
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\11 - Events\bin\Debug\net8.0\11 - Events.pdb
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\11 - Events\obj\Debug\net8.0\11 - Events.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\11 - Events\obj\Debug\net8.0\11 - Events.AssemblyInfoInputs.cache
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\11 - Events\obj\Debug\net8.0\11 - Events.AssemblyInfo.cs
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\11 - Events\obj\Debug\net8.0\11 - Events.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\11 - Events\obj\Debug\net8.0\11 - Events.sourcelink.json
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\11 - Events\obj\Debug\net8.0\11 - Events.dll
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\11 - Events\obj\Debug\net8.0\refint\11 - Events.dll
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\11 - Events\obj\Debug\net8.0\11 - Events.pdb
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\11 - Events\obj\Debug\net8.0\11 - Events.genruntimeconfig.cache
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\11 - Events\obj\Debug\net8.0\ref\11 - Events.dll

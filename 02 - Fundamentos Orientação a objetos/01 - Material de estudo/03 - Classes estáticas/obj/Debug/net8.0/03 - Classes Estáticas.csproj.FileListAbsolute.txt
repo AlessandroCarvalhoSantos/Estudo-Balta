@@ -1,0 +1,15 @@
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\03 - Classes Estáticas\bin\Debug\net8.0\03 - Classes Estáticas.exe
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\03 - Classes Estáticas\bin\Debug\net8.0\03 - Classes Estáticas.deps.json
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\03 - Classes Estáticas\bin\Debug\net8.0\03 - Classes Estáticas.runtimeconfig.json
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\03 - Classes Estáticas\bin\Debug\net8.0\03 - Classes Estáticas.dll
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\03 - Classes Estáticas\bin\Debug\net8.0\03 - Classes Estáticas.pdb
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\03 - Classes Estáticas\obj\Debug\net8.0\03 - Classes Estáticas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\03 - Classes Estáticas\obj\Debug\net8.0\03 - Classes Estáticas.AssemblyInfoInputs.cache
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\03 - Classes Estáticas\obj\Debug\net8.0\03 - Classes Estáticas.AssemblyInfo.cs
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\03 - Classes Estáticas\obj\Debug\net8.0\03 - Classes Estáticas.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\03 - Classes Estáticas\obj\Debug\net8.0\03 - Classes Estáticas.sourcelink.json
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\03 - Classes Estáticas\obj\Debug\net8.0\03 - Classes Estáticas.dll
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\03 - Classes Estáticas\obj\Debug\net8.0\refint\03 - Classes Estáticas.dll
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\03 - Classes Estáticas\obj\Debug\net8.0\03 - Classes Estáticas.pdb
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\03 - Classes Estáticas\obj\Debug\net8.0\03 - Classes Estáticas.genruntimeconfig.cache
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\03 - Classes Estáticas\obj\Debug\net8.0\ref\03 - Classes Estáticas.dll

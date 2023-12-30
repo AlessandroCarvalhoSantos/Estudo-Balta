@@ -1,0 +1,15 @@
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\08 - Upcast e Downcast\bin\Debug\net8.0\08 - Upcast e Downcast.exe
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\08 - Upcast e Downcast\bin\Debug\net8.0\08 - Upcast e Downcast.deps.json
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\08 - Upcast e Downcast\bin\Debug\net8.0\08 - Upcast e Downcast.runtimeconfig.json
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\08 - Upcast e Downcast\bin\Debug\net8.0\08 - Upcast e Downcast.dll
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\08 - Upcast e Downcast\bin\Debug\net8.0\08 - Upcast e Downcast.pdb
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\08 - Upcast e Downcast\obj\Debug\net8.0\08 - Upcast e Downcast.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\08 - Upcast e Downcast\obj\Debug\net8.0\08 - Upcast e Downcast.AssemblyInfoInputs.cache
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\08 - Upcast e Downcast\obj\Debug\net8.0\08 - Upcast e Downcast.AssemblyInfo.cs
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\08 - Upcast e Downcast\obj\Debug\net8.0\08 - Upcast e Downcast.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\08 - Upcast e Downcast\obj\Debug\net8.0\08 - Upcast e Downcast.sourcelink.json
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\08 - Upcast e Downcast\obj\Debug\net8.0\08 - Upcast e Downcast.dll
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\08 - Upcast e Downcast\obj\Debug\net8.0\refint\08 - Upcast e Downcast.dll
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\08 - Upcast e Downcast\obj\Debug\net8.0\08 - Upcast e Downcast.pdb
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\08 - Upcast e Downcast\obj\Debug\net8.0\08 - Upcast e Downcast.genruntimeconfig.cache
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\08 - Upcast e Downcast\obj\Debug\net8.0\ref\08 - Upcast e Downcast.dll

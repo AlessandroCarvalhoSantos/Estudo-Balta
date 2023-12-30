@@ -1,0 +1,15 @@
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\14 - Projeto final\bin\Debug\net8.0\14 - Projeto final.exe
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\14 - Projeto final\bin\Debug\net8.0\14 - Projeto final.deps.json
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\14 - Projeto final\bin\Debug\net8.0\14 - Projeto final.runtimeconfig.json
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\14 - Projeto final\bin\Debug\net8.0\14 - Projeto final.dll
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\14 - Projeto final\bin\Debug\net8.0\14 - Projeto final.pdb
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\14 - Projeto final\obj\Debug\net8.0\14 - Projeto final.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\14 - Projeto final\obj\Debug\net8.0\14 - Projeto final.AssemblyInfoInputs.cache
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\14 - Projeto final\obj\Debug\net8.0\14 - Projeto final.AssemblyInfo.cs
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\14 - Projeto final\obj\Debug\net8.0\14 - Projeto final.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\14 - Projeto final\obj\Debug\net8.0\14 - Projeto final.sourcelink.json
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\14 - Projeto final\obj\Debug\net8.0\14 - Projeto final.dll
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\14 - Projeto final\obj\Debug\net8.0\refint\14 - Projeto final.dll
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\14 - Projeto final\obj\Debug\net8.0\14 - Projeto final.pdb
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\14 - Projeto final\obj\Debug\net8.0\14 - Projeto final.genruntimeconfig.cache
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\14 - Projeto final\obj\Debug\net8.0\ref\14 - Projeto final.dll

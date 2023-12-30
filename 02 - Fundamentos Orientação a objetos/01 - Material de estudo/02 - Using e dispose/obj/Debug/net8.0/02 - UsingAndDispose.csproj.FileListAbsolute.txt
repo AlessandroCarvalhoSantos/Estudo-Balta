@@ -1,0 +1,15 @@
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\02 - UsingAndDispose\bin\Debug\net8.0\02 - UsingAndDispose.exe
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\02 - UsingAndDispose\bin\Debug\net8.0\02 - UsingAndDispose.deps.json
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\02 - UsingAndDispose\bin\Debug\net8.0\02 - UsingAndDispose.runtimeconfig.json
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\02 - UsingAndDispose\bin\Debug\net8.0\02 - UsingAndDispose.dll
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\02 - UsingAndDispose\bin\Debug\net8.0\02 - UsingAndDispose.pdb
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\02 - UsingAndDispose\obj\Debug\net8.0\02 - UsingAndDispose.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\02 - UsingAndDispose\obj\Debug\net8.0\02 - UsingAndDispose.AssemblyInfoInputs.cache
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\02 - UsingAndDispose\obj\Debug\net8.0\02 - UsingAndDispose.AssemblyInfo.cs
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\02 - UsingAndDispose\obj\Debug\net8.0\02 - UsingAndDispose.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\02 - UsingAndDispose\obj\Debug\net8.0\02 - UsingAndDispose.sourcelink.json
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\02 - UsingAndDispose\obj\Debug\net8.0\02 - UsingAndDispose.dll
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\02 - UsingAndDispose\obj\Debug\net8.0\refint\02 - UsingAndDispose.dll
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\02 - UsingAndDispose\obj\Debug\net8.0\02 - UsingAndDispose.pdb
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\02 - UsingAndDispose\obj\Debug\net8.0\02 - UsingAndDispose.genruntimeconfig.cache
+C:\Users\Alessandro\Desktop\Repositórios\Estudo-Balta.io\02 - Fundamentos Orientação a objetos\01 - Material de estudo\02 - UsingAndDispose\obj\Debug\net8.0\ref\02 - UsingAndDispose.dll
