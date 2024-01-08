@@ -1,7 +1,7 @@
 Fundamentos do SQL Server com C#
 
 Instituição: BALTA
-Carga horaria: 3 horas
+Carga horária: 3 horas
 Data: 30/12/2023
 	- Ferramentas
 	- Create Database
