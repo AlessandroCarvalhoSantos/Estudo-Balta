@@ -1,0 +1,65 @@
+Acesso à dados com .NET, C#, Dapper e SQL Server
+
+Instituição: BALTA
+Carga horária: 4.7 horas
+Data: 07/01/2024
+O que teve no curso:
+    - 01 - Introdução
+        - Apresentação
+        - Introdução e ferramentas
+        - ADO.NET
+        - Restaurando o banco
+        - Connection String
+        - Microsoft.Data.SqlClient
+        - SqlConnection
+        - SqlCommand e SqlDataReader
+    - 02 - Dapper
+        - Instalação
+        - Primeira Consulta
+        - Mapeando colunas e alias
+        - Iniciando um INSERT
+        - SQL Injection
+        - SQLParameter
+        - UPDATE
+    - 03 - Imersão
+        - Execute Many
+        - Executando Procedures
+        - Lendo Procedures
+        - ExecuteScalar
+        - Views
+        - OneToOne - Parte 01
+        - OneToOne - Parte 02
+        - OneToMany - Parte 01
+        - OneToMany - Parte 02
+        - QuerMultiple
+        - Select IN
+        - Like
+        - Transactions
+    - 04 - Mão na massa
+        - Criando o banco
+        - Revisão - Índices no SQL Server
+        - Criando as tabelas
+        - Criando o projeto
+        - Dapper Contrib
+        - CRUD
+        - Repository Pattern
+        - Use Repository
+        - Otimizando o código (User Repository)
+        - Compartilhando a conexão
+        - Role Repository
+        - Otimizando o código (Role Repository)
+        - Criando os Models
+        - Repositório Genérico
+        - Utilizando o repositório genérico
+        - Implementando One to many
+        - Criando repositórios especialistas
+        - Repositórios específicos
+        - One to Many - Populando listas
+        - Resumo e desafios
+    - 05 - Desafio
+        - Estruturando o desafio
+        - Criando as telas
+        - Compartilhando a conexão
+        - Criando uma tag
+        - Atualizando e excluindo uma tag
+        - Finalização
