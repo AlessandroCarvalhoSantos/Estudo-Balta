@@ -14,6 +14,7 @@ public abstract class BaseController <T> where T : BaseModel
         _connection = connection;
     }
 
+
     public virtual void SwitchOption(int opcao)
     {
         switch (opcao)

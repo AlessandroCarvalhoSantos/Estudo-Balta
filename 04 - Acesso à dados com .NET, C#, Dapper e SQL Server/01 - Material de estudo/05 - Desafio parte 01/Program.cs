@@ -44,15 +44,8 @@ public class Program
                 break;
 
                 case 4:
-                    // int optionUser;
-                    // do
-                    // {
-                    //     Console.Clear();
-                    //     optionUser = Menu.UserView();
-                    //     var userController = new UserController(connection);
-                    //     userController.SwitchOption(optionUser);
-
-                    // }while(optionUser != 6);
+                    var userController = new UserController(connection);
+                    userController.ExecuteMenuUser();
                 break;
 
                 case 5:
