@@ -14,43 +14,14 @@ public class RoleRepository : Repository<Role>
 
    }
 
-   public List<Role> GetAllWithUsers()
+   public List<Role> GetAllWithUsers(int id = 0)
     {
         var query = @"SELECT [Role].*, [User].* FROM [Role] 
             LEFT JOIN [UserRole] ON [UserRole].[RoleId] = [Role].[Id] 
             LEFT JOIN [User] ON [UserRole].[UserId] = [User].[Id]";
 
-        var roles = new List<Role>();
-
-        _connection.Query<Role, User, Role>(query, 
-            (role, user)=>{
-               
-                var item = roles.FirstOrDefault(w=>w.Id == role.Id);
-
-                if(item is null)
-                {
-                    if(user is not null)
-                      role.Users.Add(user);
-
-                    roles.Add(role);
-                }
-                else
-                {
-                    if(user is not null)
-                        item.Users.Add(user);
-                }
-
-                return role;
-
-            }, splitOn:"Id");
-       return roles; 
-    }
-
-   public List<Role> GetRoleWithUser(int id)
-    {
-        var query = @"SELECT [Role].*, [User].* FROM [Role] 
-            LEFT JOIN [UserRole] ON [UserRole].[RoleId] = [Role].[Id] 
-            LEFT JOIN [User] ON [UserRole].[UserId] = [User].[Id] WHERE [Role].[Id] = @Id";
+        if(id > 0)
+          query += "WHERE [Role].[Id] = @Id";
 
         var roles = new List<Role>();
 
@@ -74,9 +45,7 @@ public class RoleRepository : Repository<Role>
 
                 return role;
 
-            }, new{Id = id}, splitOn:"Id");
+            },id>0?new{Id = id}:null, splitOn:"Id");
        return roles; 
-    }
-
-   
+    }   
 }

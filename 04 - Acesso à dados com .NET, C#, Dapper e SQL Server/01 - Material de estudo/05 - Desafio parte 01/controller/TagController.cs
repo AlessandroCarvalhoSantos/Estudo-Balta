@@ -51,7 +51,7 @@ public class TagController : BaseController<Tag>
           case 5:
             var idRole = GetIdSearch();
             if (idRole > 0)
-              TagView.PrintListTagsWithPost(SearchTagWithPost(idRole));
+              TagView.PrintListTagsWithPost(ListModelWithPost(idRole));
           break;
           case 6:
               var updateModel = GetUpdateModel();
@@ -67,15 +67,11 @@ public class TagController : BaseController<Tag>
       }
   }
 
-  public List<Tag> ListModelWithPost()
+  public List<Tag> ListModelWithPost(int id = 0)
   {
-      return new TagRepository(_connection).GetAllWithPost();
+      return new TagRepository(_connection).GetAllWithPost(id);
   }
 
-  public List<Tag> SearchTagWithPost(int id)
-  {
-      return new TagRepository(_connection).GetTagWithPost(id);
-  }
 
   public override Tag GetDataInfoModel()
   {

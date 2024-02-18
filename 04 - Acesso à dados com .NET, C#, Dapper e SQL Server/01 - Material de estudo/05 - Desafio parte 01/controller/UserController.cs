@@ -1,5 +1,6 @@
 using Desafio.Model;
 using Desafio.View;
+using Desafio.Repository;
 using Microsoft.Data.SqlClient;
 
 namespace Desafio.Controller;
@@ -10,7 +11,7 @@ public class UserController : BaseController<User>
   {
    
   }
-  protected override void PrintMenu() => Menu.PrintHeader("MENU DE POST");
+  protected override void PrintMenu() => Menu.PrintHeader("MENU DE USUÁRIOS");
 
   public void ExecuteMenuUser()
   {
@@ -18,7 +19,7 @@ public class UserController : BaseController<User>
       do
       {
           Console.Clear();
-          option = TagView.MenuView();
+          option = UserView.MenuView();
           var controller = new UserController(_connection);
           controller.SwitchOption(option);
 
@@ -39,8 +40,8 @@ public class UserController : BaseController<User>
               PrintListModel(models);
           break;
           case 3:
-              // var modelsWithPosts = ListModelWithPost();
-              // TagView.PrintListTagsWithPost(modelsWithPosts);
+              var modelsWithRoles = ListModelWithRoles();
+              UserView.PrintListUserWithRoles(modelsWithRoles);
           break;
           case 4:
               var id = GetIdSearch();
@@ -48,9 +49,9 @@ public class UserController : BaseController<User>
                   SearchModel(id);
           break;
           case 5:
-            // var idRole = GetIdSearch();
-            // if (idRole > 0)
-            //   TagView.PrintListTagsWithPost(SearchTagWithPost(idRole));
+            var idRole = GetIdSearch();
+            if (idRole > 0)
+              UserView.PrintListUserWithRoles(ListModelWithRoles(idRole));
           break;
           case 6:
               var updateModel = GetUpdateModel();
@@ -66,6 +67,11 @@ public class UserController : BaseController<User>
       }
   }
 
+  public List<User> ListModelWithRoles(int id = 0)
+  {
+      return new UserRepository(_connection).GetAllWithRoles(id);
+  }
+
 
   public override User GetDataInfoModel()
   {
@@ -73,12 +79,20 @@ public class UserController : BaseController<User>
       Console.Write("Nome do user: ");
       user.Name = Console.ReadLine();
 
-      Console.Write("Digite o Email: ");
-      user.Slug = Console.ReadLine();
+      Console.Write("Digite o email: ");
+      user.Email = Console.ReadLine();
 
       Console.Write("Digite a senha: ");
-      user.Slug = Console.ReadLine();
+      user.PasswordHash = Console.ReadLine();
 
+      Console.Write("Digite a Bio: ");
+      user.Bio = Console.ReadLine();
+
+      Console.Write("Digite a url da imagem: ");
+      user.Image = Console.ReadLine();
+
+      Console.Write("Digite o slug: ");
+      user.Slug = Console.ReadLine();
 
       return user;
   }

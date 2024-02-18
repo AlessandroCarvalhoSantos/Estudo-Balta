@@ -1,5 +1,6 @@
 
 using Dapper.Contrib.Extensions;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Desafio.Model;
 
@@ -33,16 +34,30 @@ public class Post : BaseModel
 
     protected override bool IsValidObject(){
 
-        if(CategoryId > 0) return false;
-        if(AuthorId > 0) return false;
+        if(CategoryId < 1) return false;
+        if(AuthorId < 1) return false;
         if(string.IsNullOrEmpty(Title)) return false;
         if(string.IsNullOrEmpty(Summary)) return false;
         if(string.IsNullOrEmpty(Body)) return false;
         if(string.IsNullOrEmpty(Slug)) return false;
-        if(CreateDate < DateTime.Now) return false;
-        if(LastUpdateDate < DateTime.Now) return false;
+        if(CreateDate > DateTime.Now) return false;
+        if(LastUpdateDate > DateTime.Now) return false;
         
         return true;
     }
+    public override string ToString()
+    {
+      var post = $"\nTítulo: {Title}\nSumário: {Summary}\nConteúdo: {Body}\nSlug: {Slug}";
+      post += $"\nCriação: {CreateDate.ToString("dd/MM/yyyy hh:mm")}";
+      post += $"\nUltima Atualização: {LastUpdateDate.ToString("dd/MM/yyyy hh:mm")}";
 
+      if(Author is not null)
+          post += $"\nAuthor: {Author.Name}";
+      if(Category is not null)
+          post += $"\nCategoria: {Category.Name}";
+
+      return post;
+    }
+ 
+  
 }

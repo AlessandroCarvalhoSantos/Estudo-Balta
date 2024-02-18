@@ -21,7 +21,6 @@ public class Category : BaseModel
     }
 
     public override string ToString()
-    {
-        return $"Id: {Id}\nCategoria: {Name}\nSlug: {Slug}";
-    }
+    => $"\nId: {Id}\nCategoria: {Name}\nSlug: {Slug}";
+    
 }

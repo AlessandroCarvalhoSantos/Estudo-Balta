@@ -39,12 +39,6 @@ public static class TagView
       Console.Clear();
       Menu.PrintHeader("MENU DE ROLES");
 
-      Menu.PrintSubHeader("TAGS");
-
-      Console.WriteLine($"---------------------------------------");
-      Console.WriteLine($"-                 TAGS                -");
-      Console.WriteLine($"---------------------------------------");
-
       foreach (var model in modelList)
       {
         Console.WriteLine(model.ToString());

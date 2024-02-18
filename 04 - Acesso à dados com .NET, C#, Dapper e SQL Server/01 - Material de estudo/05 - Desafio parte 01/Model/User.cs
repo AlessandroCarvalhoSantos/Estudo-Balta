@@ -39,6 +39,8 @@ public class User : BaseModel
     protected override bool IsValidObject(){
         if(string.IsNullOrEmpty(Name))
             return false;
+        if(string.IsNullOrEmpty(Email))
+            return false;
         if(string.IsNullOrEmpty(_passwordHash))
             return false;
         if(string.IsNullOrEmpty(Bio))
@@ -52,6 +54,6 @@ public class User : BaseModel
     }
 
     public override string ToString()
-      => $" Nome: {Name}\n Email: {Email}\n Bio: {Bio}\n Image: {Image}\n Slug: {Slug}";
+      => $"\nId: {Id}\nNome: {Name}\nEmail: {Email}\nBio: {Bio}\nImage: {Image}\nSlug: {Slug}";
   
 }

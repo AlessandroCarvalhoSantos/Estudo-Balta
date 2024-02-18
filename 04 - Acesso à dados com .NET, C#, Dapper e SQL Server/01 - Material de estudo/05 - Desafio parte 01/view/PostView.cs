@@ -2,7 +2,7 @@ using Desafio.Model;
 
 namespace Desafio.View;
 
-public static class UserView
+public static class PostView
 {
     public static int MenuView()
     {
@@ -10,51 +10,51 @@ public static class UserView
         do
         {
             Console.Clear();
-            PrintUserMenu();
+            PrintPostMenu();
             int.TryParse(Console.ReadLine(), out opcao);
 
         }while(opcao < 1 || opcao > 8);
 
         return opcao;
     }
-    private static void PrintUserMenu()
+    private static void PrintPostMenu()
     {
         Console.Clear();
 
-        Menu.PrintHeader("MENU DE USERS");
+        Menu.PrintHeader("MENU DE POST");
 
         Console.WriteLine("1 - Cadastrar");
         Console.WriteLine("2 - Listar");
-        Console.WriteLine("3 - Listar Users e seus Roles");
+        Console.WriteLine("3 - Listar POST e seus associados");
         Console.WriteLine("4 - Buscar");
-        Console.WriteLine("5 - Buscar Users e seus Roles");
+        Console.WriteLine("5 - Buscar POST e seus associados");
         Console.WriteLine("6 - Atualizar");
         Console.WriteLine("7 - Deletar");
         Console.WriteLine("8 - sair");
         Console.Write("Opção: ");
     } 
 
-    public static void PrintListUserWithRoles(List<User> modelList)
+    public static void PrintListPost(List<Post> modelList)
     {
       Console.Clear();
-      Menu.PrintHeader("MENU DE USUARIOS");
+      Menu.PrintHeader("MENU DE POST");
 
       foreach (var model in modelList)
       {
         Console.WriteLine(model.ToString());
-        if(model.Roles.Count() == 0)
+        if (model.Tags.Count() == 0)
         {
-          Console.WriteLine("Nenhuma role associado a esse usuário");
+          Console.WriteLine("Nenhuma tag associado a esse post");
         }
         else
         {
           Console.WriteLine($"---------------------------------------");
-          Console.WriteLine($"-           Roles associados           -");
+          Console.WriteLine($"-           Tags associados           -");
           Console.WriteLine($"---------------------------------------");
 
-          foreach (var role in model.Roles)
+          foreach (var tag in model.Tags)
           {
-            Console.WriteLine(role.ToString());
+            Console.WriteLine(tag.ToString());
             Console.WriteLine($"---------------------------------------");
           }
         }
@@ -62,10 +62,10 @@ public static class UserView
         Console.WriteLine($"---------------------------------------");
       }
 
-      if(modelList.Count() == 0)
-        Console.WriteLine("Nenhuma usuário encontrada!");
+      if (modelList.Count() == 0)
+        Console.WriteLine("Nenhum post encontrada!");
 
       Console.Write("Digite qualquer tecla para continuar: ");
       Console.ReadLine();
-    }
+  }
 }

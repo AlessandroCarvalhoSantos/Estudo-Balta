@@ -49,18 +49,8 @@ public class Program
                 break;
 
                 case 5:
-                    // int optionPost;
-                    // do
-                    // {
-                    //     Console.Clear();
-                    //     optionPost = Menu.PostView();
-                    //     var postController = new PostController(connection);
-                    //     postController.SwitchOption(optionPost);
-
-                    // }while(optionPost != 6);
-                break;
-
-                case 6:
+                    var postController = new PostController(connection);
+                    postController.ExecuteMenuPost();
                 break;
             }
 

@@ -52,7 +52,7 @@ public class RoleController : BaseController<Role>
           case 5:
                var idRole = GetIdSearch();
                if(idRole > 0)
-                   RoleView.PrintListRolesWithUsers(SearchRoleWithUser(idRole));
+                   RoleView.PrintListRolesWithUsers(ListModelWithUsers(idRole));
           break;
           case 6:
               var updateModel = GetUpdateModel();
@@ -64,20 +64,13 @@ public class RoleController : BaseController<Role>
               if(idModelUpdate > 0)
                   DeleteModel(idModelUpdate);
           break;
-          
       }
   }
 
-  public List<Role> ListModelWithUsers()
+  public List<Role> ListModelWithUsers(int id = 0)
   {
-      return new RoleRepository(_connection).GetAllWithUsers();
+      return new RoleRepository(_connection).GetAllWithUsers(id);
   }
-
-  public List<Role> SearchRoleWithUser(int id)
-  {
-      return new RoleRepository(_connection).GetRoleWithUser(id);
-  }
-
 
   public override Role GetDataInfoModel()
   {
@@ -90,6 +83,4 @@ public class RoleController : BaseController<Role>
 
       return role;
   }
-
- 
 }
