@@ -50,7 +50,7 @@ public static class UserView
         else
         {
           Console.WriteLine($"---------------------------------------");
-          Console.WriteLine($"-           Roles associados           -");
+          Console.WriteLine($"-           Roles associados          -");
           Console.WriteLine($"---------------------------------------");
 
           foreach (var role in model.Roles)

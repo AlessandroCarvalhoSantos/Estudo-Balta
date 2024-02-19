@@ -24,7 +24,7 @@ public class PostController : BaseController<Post>
           var controller = new PostController(_connection);
           controller.SwitchOption(option);
 
-      }while(option != 8);
+      }while(option != 9);
   }
 
   public override void SwitchOption(int opcao)
@@ -76,12 +76,17 @@ public class PostController : BaseController<Post>
   {
       return new PostRepository(_connection).GetAllWithAssociados(id);
   }
-
   public void AddTag(int idAddTag)
   {
-      Console.Write("Adicionando tag");
+    var postTag = new PostTag();
+    postTag.PostId = idAddTag;
+    postTag.TagId = new PostController(_connection).GetIdSearch();
+    new PostTagRepository(_connection).Create(postTag);
+      
+    Console.Write("Tag associada a um post: ");
+    Console.Write("Digite qualquer tecla para continuar: ");
+    Console.ReadLine();
   }
-
 
   public override Post GetDataInfoModel()
   {
