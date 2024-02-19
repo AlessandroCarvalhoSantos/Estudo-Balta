@@ -63,6 +63,11 @@ public class UserController : BaseController<User>
               if(idModelUpdate > 0)
                   DeleteModel(idModelUpdate);
           break;
+          case 8:
+              var idAddRole = GetIdSearch();
+              if(idAddRole > 0)
+                  AddRole(idAddRole);
+          break;
           
       }
   }
@@ -72,6 +77,10 @@ public class UserController : BaseController<User>
       return new UserRepository(_connection).GetAllWithRoles(id);
   }
 
+  public void AddRole(int idAddRole)
+  {
+      Console.Write("Adicionando role");
+  }
 
   public override User GetDataInfoModel()
   {

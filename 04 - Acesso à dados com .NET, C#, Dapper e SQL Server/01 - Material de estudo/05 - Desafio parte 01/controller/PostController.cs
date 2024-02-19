@@ -64,12 +64,22 @@ public class PostController : BaseController<Post>
               if(idModelUpdate > 0)
                   DeleteModel(idModelUpdate);
           break;
+          case 8:
+              var idAddTag = GetIdSearch();
+              if(idAddTag > 0)
+                  AddTag(idAddTag);
+          break;
           
       }
   }
   public List<Post> ListModelWithAssociados(int id = 0)
   {
       return new PostRepository(_connection).GetAllWithAssociados(id);
+  }
+
+  public void AddTag(int idAddTag)
+  {
+      Console.Write("Adicionando tag");
   }
 
 

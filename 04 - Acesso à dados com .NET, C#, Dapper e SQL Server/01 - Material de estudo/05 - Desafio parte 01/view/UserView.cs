@@ -13,7 +13,7 @@ public static class UserView
             PrintUserMenu();
             int.TryParse(Console.ReadLine(), out opcao);
 
-        }while(opcao < 1 || opcao > 8);
+        }while(opcao < 1 || opcao > 9);
 
         return opcao;
     }
@@ -30,7 +30,8 @@ public static class UserView
         Console.WriteLine("5 - Buscar Users e seus Roles");
         Console.WriteLine("6 - Atualizar");
         Console.WriteLine("7 - Deletar");
-        Console.WriteLine("8 - sair");
+        Console.WriteLine("8 - Adicionar roles");
+        Console.WriteLine("9 - sair");
         Console.Write("Opção: ");
     } 
 

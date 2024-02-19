@@ -13,7 +13,7 @@ public static class PostView
             PrintPostMenu();
             int.TryParse(Console.ReadLine(), out opcao);
 
-        }while(opcao < 1 || opcao > 8);
+        }while(opcao < 1 || opcao > 9);
 
         return opcao;
     }
@@ -30,7 +30,8 @@ public static class PostView
         Console.WriteLine("5 - Buscar POST e seus associados");
         Console.WriteLine("6 - Atualizar");
         Console.WriteLine("7 - Deletar");
-        Console.WriteLine("8 - sair");
+        Console.WriteLine("8 - Adicionar tags");
+        Console.WriteLine("9 - sair");
         Console.Write("Opção: ");
     } 
 
